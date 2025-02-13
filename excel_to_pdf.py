@@ -6,12 +6,12 @@ from reportlab.platypus import Table, TableStyle
 import os
 
 # Path to the Excel file
-excel_path = r"C:\Users\NAGASREE\Desktop\git_projects\student_data1.xlsx"
+excel_path = r"E:\\College_Studies\\pdftoexcel\\student_data1.xlsxx"
 # Read data from Excel
 df = pd.read_excel(excel_path)
 
 # Path to save the PDF file
-pdf_path = "C:\\Users\\NAGASREE\\Desktop\\git_projects\\output.pdf"  # Update this path
+pdf_path = "E:\\College_Studies\\pdftoexcel\\output.pdf"  # Update this path
 
 def create_pdf(dataframe, pdf_path):
     # Ensure the directory for the PDF path exists
