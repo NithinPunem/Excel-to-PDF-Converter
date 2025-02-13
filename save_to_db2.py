@@ -42,7 +42,7 @@ def insert_new_data(df):
         conn.close()
 
 # Load data and call the function
-excel_path = "C:\\Users\\NAGASREE\\Desktop\\git_projects\\student_data1.xlsx"
+excel_path = "E:\\College_Studies\\pdftoexcel\\student_data1.xlsx"
 df = pd.read_excel(excel_path)
 
 # Insert data into MySQL
